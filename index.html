@@ -3,249 +3,249 @@
     <head>
         
         <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-                        <script src="js/jquery-1.11.3.min.js"></script>
-                        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-                        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-                        <link rel="stylesheet" href="css/bootstrap.min.css">
-                            <script src="js/bootstrap.min.js"></script>
-                            <link rel="icon" type="image/png" href="images/IB_LOGO_black.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="icon" type="image/png" href="images/IB_LOGO_black.png">
+        <title>InnovatorsBay</title>                       
                                 
+        <script type="text/javascript">
+            $(document).ready(function() {
+                              
+                              $('#fullpage').fullpage({
+                                      css3: true,
+                                      scrollOverflow: true,
+                                });
+                              });
+        </script>
+        <style type="text/css">
+            @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+            @import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+            body{margin:0px;padding:0px; background-color:black; height: 100%; }
+            
+            @font-face {
+                font-family: ubuntu;
+                src: url("fonts/Ubuntu-B.ttf");
+            }
+            
+            @font-face {
+                font-family: sans-pro-light-i;
+                src: url("fonts/SourceSansPro-LightItalic.ttf");
+            }
+            
+            @font-face {
+                font-family: sans-pro-semibold;
+                src: url("fonts/SourceSansPro-Semibold.ttf");
+            }
+            
+            @font-face {
+                font-family: sans-pro-regular;
+                src: url("fonts/SourceSansPro-Regular.ttf");
+            }
                                 
-                                <script type="text/javascript">
-                                    $(document).ready(function() {
-                                                      
-                                                      $('#fullpage').fullpage({
-                                                                              css3: true,
-                                                                              scrollOverflow: true,
-                                                                              });
-                                                      });
-                                    </script>
-                                <style type="text/css">
-                                    @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
-                                    @import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
-                                    body{margin:0px;padding:0px; background-color:black; height: 100%; }
-                                    
-                                    @font-face {
-                                        font-family: ubuntu;
-                                        src: url("fonts/Ubuntu-B.ttf");
-                                    }
+            @media screen and (min-width: 320px) {
+                #fullpage {
+                    max-width:100%;
+                    height: auto;
+                    margin:0 auto;
+                    background-color:white;
+                    background-repeat:no-repeat;
+                    overflow: scroll;
+                }
+                
+                #first {
+                    position: relative;
+                    height: 100%;
+                    margin:0 auto ;
+                    text-align:center;
+                    background-image:url('images/bg_innobay_home.jpeg');
+                }
+                
+                
+                .images{
+                    position:relative;
+                    max-width:100%;
+                    max-height:100%;
+                    text-align: center;
+                    z-index: 9999;
+                    color: white;
+                    display: block;
+                    margin-top: 3vh;
+                }
+                
+                
+                
+                #ib_logo_white {
+                    position: relative;
+                    margin-top: 1.5%;
+                    z-index: 1;
+                    text-align: center;
+                    height: 70px;
+                }
+                
+                
+                #moto{
+                    position: relative;
+                    font-size: 22px;
+                    color: #00eaff;
+                    font-weight: bold;
+                    font-family: sans-pro-light-i;
+                    text-align: center;
+                    display: block;
+                }
+                
+                #companyName{
+                    position: relative;
+                    font-size: 22px;
+                    color: #ffffff;
+                    font-weight: bold;
+                    font-family: ubuntu;
+                    text-align: center;
+                    display: block;
+                    margin-top: 20px;
+                }
+                
+                #coming-soon{
+                    position: relative;
+                    font-size: 40px;
+                    color: #ffffff;
+                    font-weight: bold;
+                    font-family: sans-pro-semibold;
+                    text-align: center;
+                    display: block;
+                    margin-top: 12%;
+                }
+                
+                #description{
+                    position: relative;
+                    font-size: 14px;
+                    color: #4299A6;
+                    font-weight: bold;
+                    font-family: sans-pro-regular;
+                    text-align: center;
+                    display: block;
+                    margin-top: 7%;
+                    margin-left: 8%;
+                    margin-right: 8%;
+                }
+                
+                #contact{
+                    position: relative;
+                    font-size: 14px;
+                    color: #ffffff;
+                    font-weight: bold;
+                    font-family: sans-pro-regular;
+                    text-align: center;
+                    display: block;
+                    margin-top: 3%
+                }
+            }
+            
+            @media screen and (min-width: 1024px) {
+                #fullpage {
+                    max-width:100%;
+                    height: auto;
+                    margin:0 auto;
+                    background-color:white;
+                    background-repeat:no-repeat;
+                }
+                
+                #first {
+                    position: relative;
+                    height: 100%;
+                    margin:0 auto ;
+                    text-align:center;
+                    background-image:url('images/bg_innobay_home.jpeg');
+                }
+                
+                
+                .images{
+                    position:relative;
+                    max-width:100%;
+                    max-height:100%;
+                    text-align: center;
+                    z-index: 9999;
+                    color: white;
+                    display: block;
+                    margin-top: 3vh;
+                }
+                
+                
+                
+                #ib_logo_white {
+                    position: relative;
+                    margin-top: 1.5%;
+                    z-index: 1;
+                    text-align: center;
+                    height: 70px;
+                }
+                
+                
+                #moto{
+                    position: relative;
+                    font-size: 22px;
+                    color: #00eaff;
+                    font-weight: bold;
+                    font-family: sans-pro-light-i;
+                    text-align: center;
+                    display: block;
+                }
+                
+                #companyName{
+                    position: relative;
+                    font-size: 22px;
+                    color: #ffffff;
+                    font-weight: bold;
+                    font-family: ubuntu;
+                    text-align: center;
+                    display: block;
+                    margin-top: 20px;
+                }
+                
+                #coming-soon{
+                    position: relative;
+                    font-size: 78px;
+                    color: #ffffff;
+                    font-weight: bold;
+                    font-family: sans-pro-semibold;
+                    text-align: center;
+                    display: block;
+                    margin-top: 7%;
+                }
+                
+                #description{
+                    position: relative;
+                    font-size: 14px;
+                    color: #4299A6;
+                    font-weight: bold;
+                    font-family: sans-pro-regular;
+                    text-align: center;
+                    display: block;
+                    margin-top: 8%;
+                    margin-left: 25%;
+                    margin-right: 25%;
+                }
+                
+                #contact{
+                    position: relative;
+                    font-size: 14px;
+                    color: #ffffff;
+                    font-weight: bold;
+                    font-family: sans-pro-regular;
+                    text-align: center;
+                    display: block;
+                    margin-top: 3%
+                }
+            }
                                 
-                                @font-face {
-                                    font-family: sans-pro-light-i;
-                                    src: url("fonts/SourceSansPro-LightItalic.ttf");
-                                }
-                                
-                                @font-face {
-                                    font-family: sans-pro-semibold;
-                                    src: url("fonts/SourceSansPro-Semibold.ttf");
-                                }
-                                
-                                @font-face {
-                                    font-family: sans-pro-regular;
-                                    src: url("fonts/SourceSansPro-Regular.ttf");
-                                }
-                                
-                                @media screen and (min-width: 320px) {
-                                    #fullpage {
-                                        max-width:100%;
-                                        height: auto;
-                                        margin:0 auto;
-                                        background-color:white;
-                                        background-repeat:no-repeat;
-                                        overflow: scroll;
-                                    }
-                                    
-                                    #first {
-                                        position: relative;
-                                        height: 100%;
-                                        margin:0 auto ;
-                                        text-align:center;
-                                        background-image:url('images/bg_innobay_home.jpeg');
-                                    }
-                                    
-                                    
-                                    .images{
-                                        position:relative;
-                                        max-width:100%;
-                                        max-height:100%;
-                                        text-align: center;
-                                        z-index: 9999;
-                                        color: white;
-                                        display: block;
-                                        margin-top: 3vh;
-                                    }
-                                    
-                                    
-                                    
-                                    #ib_logo_white {
-                                        position: relative;
-                                        margin-top: 1.5%;
-                                        z-index: 1;
-                                        text-align: center;
-                                        height: 70px;
-                                    }
-                                    
-                                    
-                                    #moto{
-                                        position: relative;
-                                        font-size: 22px;
-                                        color: #00eaff;
-                                        font-weight: bold;
-                                        font-family: sans-pro-light-i;
-                                        text-align: center;
-                                        display: block;
-                                    }
-                                    
-                                    #companyName{
-                                        position: relative;
-                                        font-size: 22px;
-                                        color: #ffffff;
-                                        font-weight: bold;
-                                        font-family: ubuntu;
-                                        text-align: center;
-                                        display: block;
-                                        margin-top: 20px;
-                                    }
-                                    
-                                    #coming-soon{
-                                        position: relative;
-                                        font-size: 40px;
-                                        color: #ffffff;
-                                        font-weight: bold;
-                                        font-family: sans-pro-semibold;
-                                        text-align: center;
-                                        display: block;
-                                        margin-top: 12%;
-                                    }
-                                    
-                                    #description{
-                                        position: relative;
-                                        font-size: 14px;
-                                        color: #4299A6;
-                                        font-weight: bold;
-                                        font-family: sans-pro-regular;
-                                        text-align: center;
-                                        display: block;
-                                        margin-top: 7%;
-                                        margin-left: 8%;
-                                        margin-right: 8%;
-                                    }
-                                    
-                                    #contact{
-                                        position: relative;
-                                        font-size: 14px;
-                                        color: #ffffff;
-                                        font-weight: bold;
-                                        font-family: sans-pro-regular;
-                                        text-align: center;
-                                        display: block;
-                                        margin-top: 3%
-                                    }
-                                }
-                                
-                                @media screen and (min-width: 1024px) {
-                                    #fullpage {
-                                        max-width:100%;
-                                        height: auto;
-                                        margin:0 auto;
-                                        background-color:white;
-                                        background-repeat:no-repeat;
-                                    }
-                                    
-                                    #first {
-                                        position: relative;
-                                        height: 100%;
-                                        margin:0 auto ;
-                                        text-align:center;
-                                        background-image:url('images/bg_innobay_home.jpeg');
-                                    }
-                                    
-                                    
-                                    .images{
-                                        position:relative;
-                                        max-width:100%;
-                                        max-height:100%;
-                                        text-align: center;
-                                        z-index: 9999;
-                                        color: white;
-                                        display: block;
-                                        margin-top: 3vh;
-                                    }
-                                    
-                                    
-                                    
-                                    #ib_logo_white {
-                                        position: relative;
-                                        margin-top: 1.5%;
-                                        z-index: 1;
-                                        text-align: center;
-                                        height: 70px;
-                                    }
-                                    
-                                    
-                                    #moto{
-                                        position: relative;
-                                        font-size: 22px;
-                                        color: #00eaff;
-                                        font-weight: bold;
-                                        font-family: sans-pro-light-i;
-                                        text-align: center;
-                                        display: block;
-                                    }
-                                    
-                                    #companyName{
-                                        position: relative;
-                                        font-size: 22px;
-                                        color: #ffffff;
-                                        font-weight: bold;
-                                        font-family: ubuntu;
-                                        text-align: center;
-                                        display: block;
-                                        margin-top: 20px;
-                                    }
-                                    
-                                    #coming-soon{
-                                        position: relative;
-                                        font-size: 78px;
-                                        color: #ffffff;
-                                        font-weight: bold;
-                                        font-family: sans-pro-semibold;
-                                        text-align: center;
-                                        display: block;
-                                        margin-top: 7%;
-                                    }
-                                    
-                                    #description{
-                                        position: relative;
-                                        font-size: 14px;
-                                        color: #4299A6;
-                                        font-weight: bold;
-                                        font-family: sans-pro-regular;
-                                        text-align: center;
-                                        display: block;
-                                        margin-top: 8%;
-                                        margin-left: 25%;
-                                        margin-right: 25%;
-                                    }
-                                    
-                                    #contact{
-                                        position: relative;
-                                        font-size: 14px;
-                                        color: #ffffff;
-                                        font-weight: bold;
-                                        font-family: sans-pro-regular;
-                                        text-align: center;
-                                        display: block;
-                                        margin-top: 3%
-                                    }
-                                }
-                                
-                                    </style>
-                                </head>
+        </style>
+    </head>
     <body>
         <div id="fullpage">
             <div class="section">
