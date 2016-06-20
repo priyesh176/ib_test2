@@ -1,0 +1,41 @@
+<html>
+
+<head>
+
+    <title>angular-scrollify</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="example/styles.css">
+
+</head>
+
+<body ng-app="ExampleApp" ng-controller="ExampleCtrl">
+
+    <div class="scrollify"
+        hj-scrollify="pane in data.panes"
+        hj-scrollify-options="{
+            id: 'myScrollify'
+        }">
+
+        <div
+            class="content"
+            style="background-color: {{pane.color}}"
+            ng-attr-data-text="{{pane.text}}"
+            ng-click="$scrollify.goTo($index)">
+        </div>
+
+    </div>
+
+    <div class="top" ng-click="top()"> TOP</div>
+
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/hamsterjs/hamster.js"></script>
+    <script type="text/javascript" src="bower_components/lethargy/lethargy.js"></script>
+    <script type="text/javascript" src="bower_components/hammerjs/hammer.js"></script>
+    <script type="text/javascript" src="angular-scrollify.js"></script>
+    <script type="text/javascript" src="example/app.js"></script>
+
+</body>
+
+</html>
