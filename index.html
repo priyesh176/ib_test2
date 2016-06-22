@@ -74,6 +74,14 @@
 
         $(document).ready(function () {
 
+$('.navbar-inverse').show();
+            $('.inverse-dropdown1').hover(function () {
+                //alert();
+                $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(00);
+            }, function () {
+                $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(00);
+            });
+
             //alert();
             $("#form_send_message1").click(function () {
                 //            alert();
@@ -157,18 +165,6 @@
             $("#product_link").click(function () {
                 $('html,body').animate({
                             scrollTop: $("#fifth").offset().top
-                        },
-                        'slow');
-            });
-            $("#dropdown1").click(function () {
-                $('html,body').animate({
-                            scrollTop: $("#second").offset().top
-                        },
-                        'slow');
-            });
-            $("#dropdown2").click(function () {
-                $('html,body').animate({
-                            scrollTop: $("#fourth").offset().top
                         },
                         'slow');
             });
